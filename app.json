@@ -3,6 +3,19 @@
     "name": "Pushnotification_Expo",
     "slug": "Pushnotification_Expo",
     "version": "1.0.0",
+   
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+       
+          "color": "#ffffff",
+          "defaultChannel": "default",
+          "enableBackgroundRemoteNotifications": false
+        }
+      ]
+    ],
+  
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
